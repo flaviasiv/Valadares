@@ -309,11 +309,11 @@ swiper-container{
     line-height: 140%; 
 }
 .swiper2 img {
-  width: 100% !important;
+  width: 240px !important;
+  height: 280px;
   margin: auto;
   object-fit: cover !important;
   top: 0;
-  margin-bottom: 0;
 }
 .servicescontainer h6{
     color: #fff;
