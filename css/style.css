@@ -152,15 +152,14 @@ swiper-container{
     width: 100%;
     margin: auto;
 }
-.aboutcontainer .vetor1{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin: auto;
-    margin-top: 24px;
-    margin-bottom: 34px;
+.vetor{
+    display: block;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
 }
 .about{
+    position: relative;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -188,9 +187,9 @@ swiper-container{
 }
 .about p{
     max-width:372px;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
-    line-height: 150%;
+    line-height: 190%;
 }
 @media screen and (max-width:1190px) {
     .about{
