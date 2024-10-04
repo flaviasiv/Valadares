@@ -201,6 +201,10 @@ text-decoration: none;
     z-index: 999;
   }
   .btndiv{width: auto;}
+  .btndiv .btn1{
+    width: 170px;
+    padding: 12px 10px;
+  }
   .box{
     width: fit-content;
     height: 0vh;
@@ -285,6 +289,9 @@ text-decoration: none;
   }
   .dropdown .dropbtn {
   padding: 0;
+  }
+  .dropdown {
+    gap: 5px;
   }
   .menusocial ul{
     display: flex;

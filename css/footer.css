@@ -112,7 +112,31 @@ form button{
 #form input:focus, #form textarea:focus{
     outline: 1px solid #fff;   
 }
+@media screen and (max-width:1180px) {
+    form {
+        width:650px;
+    }
+    #form input{
+        width:150px;
+    }
+}
 @media screen and (max-width:980px) {
+    footer{
+        padding: 16px;
+    }
+    form {
+        width:100%;
+        max-width: 100%;
+        margin: auto;
+        height: 500px;
+        margin-top: 50px;
+    }
+    .forminputg{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+    }
     .form{
         flex-direction: column;
     }
@@ -122,14 +146,14 @@ form button{
     }
     #form input{
         height: 40px;    
-        width:50px;
+        width:100%;
     }
     .formp h2{
         width: 270px;    
         font-size: 36px;
     }
     .formgrid{
-    padding: 100px 10px;
+    padding: 50px 10px;
     }
 }
 .footermenu{
@@ -259,47 +283,14 @@ form button{
 }
 .footerimglogo2{display:none;}
 @media screen and (max-width: 870px) {
-    .footergrid{
-        flex-direction: column;
-        margin: 0;
-        padding: 0px;
-    }
-    .footerimglogo img{
-        margin: 0;
-        margin-top: 20px;
-    }
-    .footerimglogo ul{
-        margin-top: 0px;
-    }
     .footermenu{
-        display: flex;
         flex-direction: column;
-        justify-content: center;
-        width: auto;
-        max-width: 400px;
-        margin: 0;
+        align-items: center;
         text-align: center;
-        margin-top: 36px;
-        padding: 0 10px 40px 10px;
+        gap: 60px;
     }
-    .footernav{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: auto;
-        margin: 0;
-        text-align: left;
-        margin-bottom: 36px;
-    }
-    .address {
-        margin-top: 36px;
-    }
-    .opentime{
-        margin-top: 0;
-        text-align: left;
-    }
-    .address h3 {
-        text-align: left;
+    .footermenu h3{
+        margin: auto;
     }
     .rights{
         flex-direction: column;
