@@ -157,8 +157,9 @@ swiper-container{
 .vetor{
     display: block;
     position: absolute;
-    bottom: 5%;
+    bottom: -15%;
     right: 5%;
+    z-index: 9;
 }
 .about{
     position: relative;
@@ -176,6 +177,7 @@ swiper-container{
     border-radius: 24px;
     max-width: 858px;
     opacity: 1;
+    z-index: 0;
 }
 .abouttitle{
     display: flex;
@@ -195,6 +197,16 @@ swiper-container{
     font-weight: 400;
     line-height: 190%;
 }
+/* .overlay {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%);
+    height: 100%;
+    border-radius: 24px;
+    width: 858px;
+    z-index: 9;
+} */
 @media screen and (max-width:1190px) {
     .about{
         padding: 0px 10px;
@@ -219,6 +231,10 @@ swiper-container{
     .about p{
         max-width:372px;
         font-size: 12px;
+    }
+    .vetor{
+        max-width: 140px;
+        right: 7%;
     }
 }
 .servicescontainer{
@@ -411,9 +427,9 @@ swiper-container{
 }
 .preferenceimgtext{
     display: flex;
+    /* padding: 1400 - 1080 (preference grid width) / 2 (padding de cada lado) */
+    padding: 0 160px;
     justify-content: space-between;
-    padding-left: 100px;
-    padding-right: 50px;
     align-items: center;
 }
 .abouttext{
@@ -437,7 +453,7 @@ swiper-container{
     display: flex;
     margin: auto;
     padding: 50px 0 0;
-    gap: 20px;
+    gap: 24px;
 }
 /* -------------------------------- 
 
@@ -447,13 +463,13 @@ swiper-container{
 -------------------------------- */
 .preferencecard{
     display: flex;
-    width: 251.556px;
+    width: 252px;
+    height: 232px;
     flex-direction: column;
     align-items: flex-start;
     flex-shrink: 0;
-    padding: 24px;
-    gap: 24px;
-    justify-content: center;    
+    padding: 32px;
+    justify-content: space-between;    
     background: linear-gradient(#000, #000) padding-box,
     linear-gradient(130deg, #000, #FFBC63) border-box;
   border-radius: 24px;
@@ -484,6 +500,9 @@ swiper-container{
 @media screen and (max-width:1090px) {
     .preferencecontainer{   
         padding: 100px 10px;
+        background-image: url(../assets/prefbgm.png);
+        background-position: top;
+        background-size: cover;
     }
     .preferencetitle{
         flex-direction: column;
@@ -833,7 +852,7 @@ swiper-container{
         margin-right: 5px;
     }
 }
-.bodypop .navbar{background-color: #000;}
+/* .bodypop .navbar{background-color: #000;} */
 .bodypop .servicescontainer{padding-bottom: 0;}
 .popuptest{
     position: relative;

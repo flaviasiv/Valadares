@@ -99,15 +99,17 @@ form button{
     width: 120px;
     list-style: none;
     color: #000;
-    border-radius: 16px;
     padding: 10px;
     margin: auto;
-    background-color: #fff;
+    border-radius: 8px;
+    background: var(--Color-Brand-main, #FFBC63);
     cursor: pointer;
+    font-family: 'Roboto';
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 700;
+    line-height: 150%;
     margin-top: 10px;
-    border:1px solid #0B2749
+    border:none
 }
 #form input:focus, #form textarea:focus{
     outline: 1px solid #fff;   
