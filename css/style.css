@@ -361,10 +361,6 @@ swiper-container{
     .servicestitle p{
         max-width: 290px;
     }
-    .listareas{
-        gap: 36px;
-        padding-left: 0px;
-    }
 }
 .preferencecontainer{    
     background: url(../assets/prefbg.png) no-repeat;
@@ -780,12 +776,15 @@ swiper-container{
     font-size:20px;
     margin-right: 10px;
 }
+.listm{display: none;}
 @media screen and (max-width:1300px) {
     .mapinfos h2{    
         font-size: 32px;
     }
 }
 @media screen and (max-width:990px) {
+    .listw{display: none;}
+    .listm{display: flex;}
     .mapscontainer{
         padding-top: 50px;
     }
@@ -834,8 +833,6 @@ swiper-container{
         line-height: 120%;
     }
     .listareas{
-        color: #000;
-        display: flex;
         gap: 6px;
         font-size: 14px;
         font-weight: 400;
