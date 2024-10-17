@@ -655,7 +655,7 @@ swiper-container{
 }
 .ig-embed iframe{
     width:900px; 
-    height:400px;
+    height:600px;
 }
 .gallerygrid-m{display: none;}
 @media screen and (max-width:980px) {
@@ -701,15 +701,15 @@ swiper-container{
         padding: 12px 20px;
     }
     .ig-embed iframe{
-        width:500px; 
-        height:500px;
+        width:590px; 
+        height:400px;
     }    
 }
 @media screen and (max-width:580px) {
     .ig-embed iframe{
         width:100%;
         max-width: 400px; 
-        height: 300px;
+        height: 330px;
     }    
 }
 .mapscontainer{

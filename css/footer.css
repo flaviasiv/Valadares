@@ -40,7 +40,6 @@ footer{
     gap: 30px;
 }
 .formp h2{
-    width: 270px;    
     font-size: 48px;
     font-weight: 700;
     line-height: 120%;
@@ -290,7 +289,6 @@ form button{
         width:100%;
     }
     .formp h2{
-        width: 270px;    
         font-size: 36px;
     }
     .formp p{
