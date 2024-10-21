@@ -15,7 +15,7 @@ main{
 html{
     scroll-behavior: smooth;
 }
-.reveal{
+/* .reveal{
     position: relative;
     transform: translateX(-50%);
     opacity: 0.4;
@@ -34,7 +34,7 @@ html{
 .reveal.active.revealtext{
     transform: translateX(0%);
     opacity: 1;
-}
+} */
 :root {
     --swiper-navigation-color: #eee;
     --swiper-pagination-color: #000;
@@ -152,6 +152,9 @@ swiper-container{
         text-align: center;
     }
     .poster .callnow{
+        margin: auto;
+    }
+    .socials{
         margin: auto;
     }
 } 
@@ -635,7 +638,7 @@ swiper-container{
     justify-content: center;
     text-align: center;
     width: 100%;
-    max-width: 9999px;
+    max-width: 100vw;
     margin: auto;
     color: #000;
 }
@@ -655,7 +658,7 @@ swiper-container{
 }
 .ig-embed iframe{
     width:900px; 
-    height:600px;
+    height:850px;
 }
 .gallerygrid-m{display: none;}
 @media screen and (max-width:980px) {
@@ -702,14 +705,14 @@ swiper-container{
     }
     .ig-embed iframe{
         width:590px; 
-        height:400px;
+        height:550px;
     }    
 }
 @media screen and (max-width:580px) {
     .ig-embed iframe{
         width:100%;
         max-width: 400px; 
-        height: 330px;
+        height: 450px;
     }    
 }
 .mapscontainer{
@@ -718,7 +721,7 @@ swiper-container{
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    max-width: 9999px;
+    max-width: 100vw;
     margin: auto;
     background-color: #FFBC63;
 }
@@ -895,7 +898,7 @@ swiper-container{
 .popuptest{
     position: relative;
     width: 100%;
-    max-width: 9999px;
+    max-width: 100vw;
     margin: auto;    
     padding: 120px 0 50px;
     margin-bottom: 50px;
@@ -966,10 +969,14 @@ a{
     cursor: pointer;
 }
 .socials svg:hover ellipse{
-    fill: #FFDDB0;
+    fill: #FFF1DE;
 }
-.btn1:hover, .mapinfos .h2tt:hover, form .btn:hover{
-    background: #FFDDB0;
+.btn1:hover, .mapinfos .h2tt:hover{
+    background: #FFF1DE;
+} 
+form .btn:hover{
+    background: #fff;
+    border: 1px solid #000;
 }
 .btnservice:hover{
     background: linear-gradient(90deg, #8E8E8E 0%, #FDFDFD 100%);
