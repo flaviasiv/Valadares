@@ -45,8 +45,8 @@ footer{
     line-height: 120%;
 }
 .formp p{
-    max-width: 490px;    
-    font-size: 26px;
+    max-width: 300px;    
+    font-size: 16px;
     font-weight: 500;
     line-height: 120%;
 }
@@ -248,9 +248,6 @@ form button{
     .address:last-child{
         margin-right: 70px;
     }
-    .formp p{
-        font-size: 16px;
-    }
 }
 @media screen and (max-width:1180px) {
     form {
@@ -293,7 +290,7 @@ form button{
         width:100%;
     }
     .formp p{
-        font-size: 16px;
+        font-size: 14px;
     }
     .formgrid{
     padding: 50px 10px;

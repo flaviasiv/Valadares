@@ -122,10 +122,17 @@ swiper-container{
 .callnow:hover{
   background: Linear;
 }
+.centerdiv{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 169px;
+}
 .socials{
     list-style: none;
     display: flex;
     gap: 10px;
+    margin: auto;
 }
 .socials a{
     display: flex;
@@ -150,6 +157,9 @@ swiper-container{
     }
     .posterinfos{
         text-align: center;
+    }
+    .centerdiv{
+        margin: auto;
     }
     .poster .callnow{
         margin: auto;
@@ -221,6 +231,9 @@ swiper-container{
     z-index: 9;
 } */
 @media screen and (max-width:1190px) {
+    .aboutcontainer{
+        padding:30px 0 120px 0;
+    }
     .about{
         padding: 0px 10px;
         flex-direction: column;
@@ -360,6 +373,9 @@ swiper-container{
     font-weight: 700;
 }
 @media screen and (max-width:990px) {
+    .servicescontainer{
+        padding-bottom: 70px;
+    }
     .servicestitle{
         padding: 70px 10px 50px 10px;
     }
@@ -407,7 +423,7 @@ swiper-container{
     display: flex;
     flex-direction: column;
     width:100%;
-    max-width: 1400px;
+    max-width: 1300px;
     margin: auto;
     justify-content: center;
 }
@@ -431,13 +447,13 @@ swiper-container{
     max-width: 282px;
     text-align: center;
     font-size: 20px;
-    font-weight: 800;
+    font-weight: 500;
     line-height: 120%; 
 }
 .preferenceimgtext{
     display: flex;
     /* padding: 1400 - 1080 (preference grid width) / 2 (padding de cada lado) */
-    padding: 0 160px;
+    padding: 0 50px;
     justify-content: space-between;
     align-items: center;
 }
@@ -969,7 +985,7 @@ a{
     cursor: pointer;
 }
 .socials svg:hover ellipse{
-    fill: #FFF1DE;
+    fill: #FFF;
 }
 .btn1:hover, .mapinfos .h2tt:hover{
     background: #FFF1DE;
